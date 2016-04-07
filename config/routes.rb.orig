@@ -1,0 +1,8 @@
+Rails.application.routes.draw do
+<<<<<<< 1c5b1c7cdd2c24534d75ac45c36872379532a03f
+ get 'time/now' => 'time#now'
+
+=======
+  get 'introduce/:name_1/and/:name_2' => 'introduce#greeting'
+>>>>>>> Added necessary files to create introduce/bill/and/anne in time_introductions
+end
